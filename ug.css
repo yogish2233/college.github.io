@@ -1,0 +1,22 @@
+li {
+    color: #123d4a;
+}
+
+.bo {
+    margin-top: 0%;
+    border: 2px solid #123d4a;
+    padding: 20px 20px 20px 90px;
+    background-image: url(bacc.jpeg);
+}
+
+.l {
+    border: 4px solid #123d4a;
+    border-radius: 10% 10% 10% 10%;
+    width: 550px;
+    box-sizing: border-box;
+    margin-left: 400px;
+}
+
+center {
+    color: rgb(237, 100, 237);
+}

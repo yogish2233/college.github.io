@@ -1,0 +1,150 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#home {
+    color: white;
+}
+
+.dropdown>button {
+    background-size: 1355px;
+    position: relative;
+    left: 200px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.dropbtn {
+    background-color: #123d4a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    background-color: #ab9999
+}
+
+.dropdown-content>a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00e1ff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    z-index: 1;
+}
+
+.dropdown>div:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 62px;
+    display: inline-block;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logos {
+    width: 1355px;
+    height: 200px;
+}
+
+.logos>#nbkr {
+    position: absolute;
+    left: 550px;
+    border: 2px;
+}
+
+.logos>#naac {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#ugc {
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#aicte {
+    position: absolute;
+    left: 270px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#grade {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#nba {
+    position: absolute;
+    right: 120px;
+    margin: 20px;
+    top: 17px;
+}
+
+.logos>#res {
+    position: absolute;
+    right: 240px;
+    margin: 20px;
+    top: 17px;
+}
+
+.logos>#qic {
+    position: absolute;
+    right: 360px;
+    top: 17px;
+    margin: 20px;
+}
+
+.ach {
+    height: 300px;
+    border: solid 2px black;
+    margin-top: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.col1 {
+    border: solid 2px black;
+    display: inline-block;
+    height: 100%;
+    width: 745px;
+    position: bottom;
+}
